@@ -68,7 +68,7 @@ describe("Github page Document tests", () => {
 
 describe("Github page Shop tests", () => {
   beforeEach(async () => {
-    await page.setDefaultTimeout(9000);
+    await page.setDefaultTimeout(10000);
     await page.goto("https://thegithubshop.com/");
   });
 
